@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import com.my.frametest.BaseTest;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -53,6 +54,36 @@ public class TestWeb extends BaseTest {
         //刷新
         driver.navigate().refresh();
         Thread.sleep(15000);
+    }
+
+    @Test
+    void addEmploee() throws InterruptedException, IOException {
+        String url = "https://work.weixin.qq.com/wework_admin/frame";
+        driver.get(url);
+
+        ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
+        TypeReference<List<HashMap<String,Object>>> typeReference = new TypeReference<List<HashMap<String,Object>>>() {
+        };
+        //读cookies
+        List<HashMap<String, Object>> cookies = mapper.readValue(new File("cookies.yaml"), typeReference);
+        System.out.println(cookies);
+
+        //给浏览器设置cookies
+        cookies.forEach(x->{
+            driver.manage().addCookie(new Cookie(x.get("name").toString(),x.get("value").toString()));
+        });
+
+        //刷新
+        driver.navigate().refresh();
+
+        driver.findElement(By.xpath("//span[contains(text(),\"添加成员\")]")).click();
+        driver.findElement(By.id("username")).sendKeys("sosossdfsdf");
+        driver.findElement(By.id("memberAdd_english_name")).sendKeys("yyyy");
+        driver.findElement(By.id("memberAdd_acctid")).sendKeys("soso_auto_test");
+        driver.findElement(By.id("memberAdd_phone")).sendKeys("13762626251");
+        driver.findElement(By.xpath("//a[@class=\"qui_btn ww_btn js_btn_save\"][1]")).click();
+        Thread.sleep(10000);
+
     }
 
 

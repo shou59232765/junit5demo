@@ -33,7 +33,7 @@ public class BaseTest {
             driver = new SafariDriver();
         }
         //隐式等待
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         actions = new Actions(driver);
 
     }

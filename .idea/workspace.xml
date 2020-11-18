@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf4dae43-583e-4f30-bf08-97b7a1bc1c78" name="Default Changelist" comment="" />
+    <list default="true" id="bf4dae43-583e-4f30-bf08-97b7a1bc1c78" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookies.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cookies.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/my/frametest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/my/frametest/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/my/weixin/TestWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/my/weixin/TestWeb.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/my/weixin/TestWeb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="580">
+              <caret line="83" column="94" selection-start-line="83" selection-start-column="94" selection-end-line="83" selection-end-column="94" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/my/frametest/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            <state relative-caret-position="341">
+              <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -41,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/cookies.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1263">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="14" />
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -54,6 +60,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -101,6 +110,7 @@
     <option name="width" value="1380" />
     <option name="height" value="877" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -146,6 +156,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="my" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="junit5-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="junit5-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="my" type="462c0819:PsiDirectoryNode" />
+              <item name="weixin" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -154,6 +173,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/my/frametest" />
@@ -179,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestWeb.testLogin">
+  <component name="RunManager" selected="JUnit.TestWeb.addEmploee">
     <configuration name="JsTest.jsDateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5-demo" />
       <extension name="coverage">
@@ -191,6 +211,38 @@
       <option name="PACKAGE_NAME" value="com.my.jshandler" />
       <option name="MAIN_CLASS_NAME" value="com.my.jshandler.JsTest" />
       <option name="METHOD_NAME" value="jsDateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWeb.addEmploee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.weixin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.my.weixin" />
+      <option name="MAIN_CLASS_NAME" value="com.my.weixin.TestWeb" />
+      <option name="METHOD_NAME" value="addEmploee" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWeb.testGetCookies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.weixin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.my.weixin" />
+      <option name="MAIN_CLASS_NAME" value="com.my.weixin.TestWeb" />
+      <option name="METHOD_NAME" value="testGetCookies" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -214,6 +266,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestWeb.addEmploee" />
+        <item itemvalue="JUnit.TestWeb.testGetCookies" />
         <item itemvalue="JUnit.TestWeb.testLogin" />
         <item itemvalue="JUnit.JsTest.jsDateTest" />
       </list>
@@ -229,32 +283,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605533463549</updated>
-      <workItem from="1605533467117" duration="7783000" />
+      <workItem from="1605533467117" duration="9414000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JsTest_jsDateTest - 2020.11.16 at 21h 56m 49s.xml">
-      <configuration name="JsTest.jsDateTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestWeb_testLogin - 2020.11.18 at 20h 48m 06s.xml">
-      <configuration name="TestWeb.testLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestWeb_testLogin - 2020.11.18 at 21h 09m 55s.xml">
-      <configuration name="TestWeb.testLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestWeb_testLogin - 2020.11.18 at 21h 11m 30s.xml">
-      <configuration name="TestWeb.testLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestWeb_testLogin - 2020.11.18 at 21h 15m 01s.xml">
-      <configuration name="TestWeb.testLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestWeb_testLogin - 2020.11.18 at 21h 15m 17s.xml">
-      <configuration name="TestWeb.testLogin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestWeb_testLogin - 2020.11.18 at 21h 16m 01s.xml">
-      <configuration name="TestWeb.testLogin" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestWeb_testLogin - 2020.11.18 at 21h 19m 14s.xml">
       <configuration name="TestWeb.testLogin" configurationId="JUnit" />
     </history-entry>
@@ -264,9 +297,30 @@
     <history-entry file="TestWeb_testLogin - 2020.11.18 at 21h 22m 18s.xml">
       <configuration name="TestWeb.testLogin" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestWeb_addEmploee - 2020.11.18 at 21h 43m 59s.xml">
+      <configuration name="TestWeb.addEmploee" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWeb_addEmploee - 2020.11.18 at 21h 46m 22s.xml">
+      <configuration name="TestWeb.addEmploee" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWeb_addEmploee - 2020.11.18 at 21h 46m 59s.xml">
+      <configuration name="TestWeb.addEmploee" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWeb_testLogin - 2020.11.18 at 21h 47m 48s.xml">
+      <configuration name="TestWeb.testLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWeb_testGetCookies - 2020.11.18 at 22h 25m 38s.xml">
+      <configuration name="TestWeb.testGetCookies" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWeb_testLogin - 2020.11.18 at 22h 26m 15s.xml">
+      <configuration name="TestWeb.testLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWeb_addEmploee - 2020.11.18 at 22h 26m 35s.xml">
+      <configuration name="TestWeb.addEmploee" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7783000" />
+    <option name="totallyTimeSpent" value="9414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="23" width="1380" height="877" extended-state="0" />
@@ -285,7 +339,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939634" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32939634" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32939634" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -403,21 +457,21 @@
     <entry file="file://$PROJECT_DIR$/cookies.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1263">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="14" />
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/my/frametest/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        <state relative-caret-position="341">
+          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/my/weixin/TestWeb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="580">
+          <caret line="83" column="94" selection-start-line="83" selection-start-column="94" selection-end-line="83" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
