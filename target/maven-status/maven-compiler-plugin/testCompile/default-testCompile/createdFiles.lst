@@ -1,0 +1,5 @@
+com/my/frametest/BrowserTest.class
+com/my/frametest/BaseTest.class
+com/my/jshandler/AlertTest.class
+com/my/jshandler/UploadTest.class
+com/my/frametest/FrameSwitchTest.class
