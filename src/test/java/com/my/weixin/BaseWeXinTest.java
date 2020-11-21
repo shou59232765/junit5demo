@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -84,12 +85,28 @@ public class BaseWeXinTest {
         Set<Cookie> cookies = driver.manage().getCookies();
         ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
         mapper.writeValue(new File("cookies.yaml"),cookies);
-        System.exit(0);
+//        System.exit(0);
 
     }
 
     public void dragAndDrop(WebElement source,WebElement target){
         actions.dragAndDrop(source,target).perform();
+    }
+
+    protected void click(By by){
+        driver.findElement(by).click();
+    }
+
+    protected void setContent(By by,String content){
+        driver.findElement(by).sendKeys(content);
+    }
+
+    protected String getMobile(){
+        long time = System.currentTimeMillis();
+        String s = String.valueOf(time);
+        String substring = s.substring(5);
+        String mobile = "137" + substring;
+        return mobile;
     }
 
     @AfterAll

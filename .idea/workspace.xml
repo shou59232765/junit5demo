@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf4dae43-583e-4f30-bf08-97b7a1bc1c78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/my/weixin/BaseWeXinTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/my/weixin/QiYeWeXinTest.java" afterDir="false" />
+    <list default="true" id="bf4dae43-583e-4f30-bf08-97b7a1bc1c78" name="Default Changelist" comment="添加成员优化">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/my/po/bate1/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/my/po/bate1/ContactPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/my/po/bate1/ContactPoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/my/po/bate1/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/my/weixin/QiYeWeXin1Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/my/frametest/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/my/frametest/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/my/weixin/TestWeb$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/my/weixin/TestWeb$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/my/weixin/TestWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/my/weixin/TestWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookies.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/my/weixin/BaseWeXinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/my/weixin/BaseWeXinTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/my/weixin/QiYeWeXinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/my/weixin/QiYeWeXinTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,10 +28,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/my/weixin/TestWeb.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/my/po/bate1/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="256">
+              <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,10 +40,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/my/weixin/QiYeWeXinTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/my/po/bate1/ContactPoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            <state relative-caret-position="256">
+              <caret line="99" column="22" lean-forward="true" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,34 +52,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/my/weixin/BaseWeXinTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/my/po/bate1/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1052">
-              <folding>
-                <element signature="e#3188#3189#0" expanded="true" />
-                <element signature="e#3248#3249#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/my/frametest/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="144">
+              <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#98#99#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookies.yaml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/my/po/bate1/ContactPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="85" column="17" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+            <state relative-caret-position="144">
+              <caret line="61" column="50" lean-forward="true" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,8 +109,18 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/my/weixin/TestWeb.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/my/frametest/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/my/weixin/BaseWeXinTest.java" />
+        <option value="$PROJECT_DIR$/cookies.yaml" />
         <option value="$PROJECT_DIR$/src/test/java/com/my/weixin/QiYeWeXinTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/my/weixin/BaseWeXinTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/my/weixin/QiYeWeXin1Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/my/po/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/my/po/ContactPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/my/po/ContactPoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/my/po/bate1/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/my/po/bate1/MainPage.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/com/my/po/bate1/ContactPoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/my/po/bate1/ContactPage.java" />
       </list>
     </option>
   </component>
@@ -193,7 +208,17 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="my" type="462c0819:PsiDirectoryNode" />
-              <item name="frametest" type="462c0819:PsiDirectoryNode" />
+              <item name="po" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit5-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="junit5-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="my" type="462c0819:PsiDirectoryNode" />
+              <item name="po" type="462c0819:PsiDirectoryNode" />
+              <item name="bate1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="junit5-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -242,82 +267,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QiYeWeXinTest.addContact">
-    <configuration name="QiYeWeXinTest.addContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ContactPoTest.testUpdateDeptMemeber">
+    <configuration name="ContactPoTest.testAddDepartment (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.my.weixin.*" />
+          <option name="PATTERN" value="com.my.po.bate1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.my.weixin" />
-      <option name="MAIN_CLASS_NAME" value="com.my.weixin.QiYeWeXinTest" />
-      <option name="METHOD_NAME" value="addContact" />
+      <option name="PACKAGE_NAME" value="com.my.po.bate1" />
+      <option name="MAIN_CLASS_NAME" value="com.my.po.bate1.ContactPoTest" />
+      <option name="METHOD_NAME" value="testAddDepartment(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QiYeWeXinTest.addEmploee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactPoTest.testAddDepartment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.my.weixin.*" />
+          <option name="PATTERN" value="com.my.po.bate1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.my.weixin" />
-      <option name="MAIN_CLASS_NAME" value="com.my.weixin.QiYeWeXinTest" />
-      <option name="METHOD_NAME" value="addEmploee" />
+      <option name="PACKAGE_NAME" value="com.my.po.bate1" />
+      <option name="MAIN_CLASS_NAME" value="com.my.po.bate1.ContactPoTest" />
+      <option name="METHOD_NAME" value="testAddDepartment" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QiYeWeXinTest.testRandom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactPoTest.testAddMember" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.my.weixin.*" />
+          <option name="PATTERN" value="com.my.po.bate1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.my.weixin" />
-      <option name="MAIN_CLASS_NAME" value="com.my.weixin.QiYeWeXinTest" />
-      <option name="METHOD_NAME" value="testRandom" />
+      <option name="PACKAGE_NAME" value="com.my.po.bate1" />
+      <option name="MAIN_CLASS_NAME" value="com.my.po.bate1.ContactPoTest" />
+      <option name="METHOD_NAME" value="testAddMember" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWeb.addEmploee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactPoTest.testUpdateDepartment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.my.weixin.*" />
+          <option name="PATTERN" value="com.my.po.bate1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.my.weixin" />
-      <option name="MAIN_CLASS_NAME" value="com.my.weixin.TestWeb" />
-      <option name="METHOD_NAME" value="addEmploee" />
+      <option name="PACKAGE_NAME" value="com.my.po.bate1" />
+      <option name="MAIN_CLASS_NAME" value="com.my.po.bate1.ContactPoTest" />
+      <option name="METHOD_NAME" value="testUpdateDepartment(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestWeb.testGetCookies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactPoTest.testUpdateDeptMemeber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.my.weixin.*" />
+          <option name="PATTERN" value="com.my.po.bate1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.my.weixin" />
-      <option name="MAIN_CLASS_NAME" value="com.my.weixin.TestWeb" />
-      <option name="METHOD_NAME" value="testGetCookies" />
+      <option name="PACKAGE_NAME" value="com.my.po.bate1" />
+      <option name="MAIN_CLASS_NAME" value="com.my.po.bate1.ContactPoTest" />
+      <option name="METHOD_NAME" value="testUpdateDeptMemeber(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -325,11 +350,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QiYeWeXinTest.addContact" />
-        <item itemvalue="JUnit.QiYeWeXinTest.addEmploee" />
-        <item itemvalue="JUnit.QiYeWeXinTest.testRandom" />
-        <item itemvalue="JUnit.TestWeb.addEmploee" />
-        <item itemvalue="JUnit.TestWeb.testGetCookies" />
+        <item itemvalue="JUnit.ContactPoTest.testUpdateDeptMemeber" />
+        <item itemvalue="JUnit.ContactPoTest.testUpdateDepartment" />
+        <item itemvalue="JUnit.ContactPoTest.testAddDepartment (1)" />
+        <item itemvalue="JUnit.ContactPoTest.testAddDepartment" />
+        <item itemvalue="JUnit.ContactPoTest.testAddMember" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +368,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605533463549</updated>
-      <workItem from="1605533467117" duration="12034000" />
+      <workItem from="1605533467117" duration="34040000" />
     </task>
     <task id="LOCAL-00001" summary="添加成员">
       <created>1605710230073</created>
@@ -352,43 +377,50 @@
       <option name="project" value="LOCAL" />
       <updated>1605710230076</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加成员优化">
+      <created>1605715032562</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605715032562</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QiYeWeXinTest_testRandom - 2020.11.18 at 23h 09m 17s.xml">
-      <configuration name="QiYeWeXinTest.testRandom" configurationId="JUnit" />
+    <history-entry file="ContactPoTest_testUpdateDeptMemeber - 2020.11.21 at 21h 19m 19s.xml">
+      <configuration name="ContactPoTest.testUpdateDeptMemeber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QiYeWeXinTest_testRandom - 2020.11.18 at 23h 09m 59s.xml">
-      <configuration name="QiYeWeXinTest.testRandom" configurationId="JUnit" />
+    <history-entry file="ContactPoTest_testUpdateDeptMemeber - 2020.11.21 at 21h 27m 07s.xml">
+      <configuration name="ContactPoTest.testUpdateDeptMemeber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QiYeWeXinTest_testRandom - 2020.11.18 at 23h 12m 12s.xml">
-      <configuration name="QiYeWeXinTest.testRandom" configurationId="JUnit" />
+    <history-entry file="ContactPoTest_testUpdateDeptMemeber - 2020.11.21 at 21h 28m 02s.xml">
+      <configuration name="ContactPoTest.testUpdateDeptMemeber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QiYeWeXinTest_testRandom - 2020.11.18 at 23h 30m 46s.xml">
-      <configuration name="QiYeWeXinTest.testRandom" configurationId="JUnit" />
+    <history-entry file="ContactPoTest_testUpdateDeptMemeber - 2020.11.21 at 21h 34m 05s.xml">
+      <configuration name="ContactPoTest.testUpdateDeptMemeber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QiYeWeXinTest_testRandom - 2020.11.18 at 23h 31m 21s.xml">
-      <configuration name="QiYeWeXinTest.testRandom" configurationId="JUnit" />
+    <history-entry file="ContactPoTest_testUpdateDeptMemeber - 2020.11.21 at 21h 35m 15s.xml">
+      <configuration name="ContactPoTest.testUpdateDeptMemeber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QiYeWeXinTest_testRandom - 2020.11.18 at 23h 33m 56s.xml">
-      <configuration name="QiYeWeXinTest.testRandom" configurationId="JUnit" />
+    <history-entry file="ContactPoTest_testUpdateDeptMemeber - 2020.11.21 at 21h 37m 35s.xml">
+      <configuration name="ContactPoTest.testUpdateDeptMemeber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QiYeWeXinTest_testRandom - 2020.11.18 at 23h 37m 20s.xml">
-      <configuration name="QiYeWeXinTest.testRandom" configurationId="JUnit" />
+    <history-entry file="ContactPoTest_testUpdateDeptMemeber - 2020.11.21 at 21h 38m 02s.xml">
+      <configuration name="ContactPoTest.testUpdateDeptMemeber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QiYeWeXinTest_addEmploee - 2020.11.18 at 23h 39m 39s.xml">
-      <configuration name="QiYeWeXinTest.addEmploee" configurationId="JUnit" />
+    <history-entry file="ContactPoTest_testUpdateDeptMemeber - 2020.11.21 at 21h 42m 38s.xml">
+      <configuration name="ContactPoTest.testUpdateDeptMemeber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QiYeWeXinTest_addEmploee - 2020.11.18 at 23h 41m 10s.xml">
-      <configuration name="QiYeWeXinTest.addEmploee" configurationId="JUnit" />
+    <history-entry file="ContactPoTest_testUpdateDeptMemeber - 2020.11.21 at 21h 43m 15s.xml">
+      <configuration name="ContactPoTest.testUpdateDeptMemeber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QiYeWeXinTest_addContact - 2020.11.18 at 23h 48m 36s.xml">
-      <configuration name="QiYeWeXinTest.addContact" configurationId="JUnit" />
+    <history-entry file="ContactPoTest_testUpdateDeptMemeber - 2020.11.21 at 21h 44m 35s.xml">
+      <configuration name="ContactPoTest.testUpdateDeptMemeber" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12034000" />
+    <option name="totallyTimeSpent" value="34040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="23" width="1380" height="877" extended-state="0" />
@@ -396,19 +428,19 @@
     <layout>
       <window_info id="Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17563528" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17563528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="SonarLint" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32939634" />
+      <window_info anchor="bottom" id="Messages" weight="0.32939634" />
       <window_info anchor="bottom" id="Terminal" weight="0.43307087" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939634" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32939634" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.335958" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39895013" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -429,13 +461,13 @@
       <window_info anchor="bottom" id="SonarLint" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.43307087" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="4" weight="0.32939634" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="6" />
+      <window_info anchor="bottom" id="Messages" order="6" weight="0.32939634" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32939634" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.32939634" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.335958" />
+      <window_info active="true" anchor="bottom" id="Debug" order="10" visible="true" weight="0.39895013" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
@@ -453,7 +485,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加成员" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加成员" />
+    <MESSAGE value="添加成员优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加成员优化" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/my/po/bate1/ContactPage.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/my/pro.java">
@@ -526,13 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cookies.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="85" column="17" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Random.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -547,7 +585,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/my/weixin/TestWeb.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+          <caret line="34" column="5" selection-start-line="22" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -557,27 +595,124 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/my/frametest/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/my/weixin/BaseWeXinTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/my/po.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1052">
-          <folding>
-            <element signature="e#3188#3189#0" expanded="true" />
-            <element signature="e#3248#3249#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="44">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/my/weixin/QiYeWeXinTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        <state relative-caret-position="388">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/my/weixin/QiYeWeXin1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="22" column="33" selection-start-line="18" selection-start-column="8" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/my/weixin/BaseWeXinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="45" selection-end-column="72" />
+          <folding>
+            <element signature="e#3188#3189#0" expanded="true" />
+            <element signature="e#3248#3249#0" expanded="true" />
+            <element signature="e#3285#3286#0" expanded="true" />
+            <element signature="e#3306#3307#0" expanded="true" />
+            <element signature="e#3417#3418#0" expanded="true" />
+            <element signature="e#3454#3455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/MyRepository/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2.jar!/org/junit/jupiter/params/provider/ValueSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/MyRepository/org/junit/jupiter/junit-jupiter-params/5.5.2/junit-jupiter-params-5.5.2.jar!/org/junit/jupiter/params/ParameterizedTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/my/po/bate1/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookies.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/my/po/bate1/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#98#99#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/my/po/bate1/ContactPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="61" column="50" lean-forward="true" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/my/po/bate1/ContactPoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="99" column="22" lean-forward="true" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
